@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='fuckpy3',
+    name='beautifulstrings',
     version='1.0',
     py_modules=['beautifulstrings'],
     install_requires=['forbiddenfruit'],

@@ -30,7 +30,7 @@ def _ascii(string):
         return "".join([str(ord(char)) for char in string])
 
 def _ascii_list(string):
-        return [ord(char) for char in string]
+        return list(map(ord, string))
 
 
 forbiddenfruit.curse(bytes, "str", _str)

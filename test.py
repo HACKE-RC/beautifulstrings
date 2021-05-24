@@ -1,4 +1,4 @@
-import fuckpy3
+import beautifulstrings
 
 def test():
 	import os

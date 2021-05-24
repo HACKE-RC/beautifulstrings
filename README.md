@@ -1,6 +1,4 @@
-# Beautiful Strings
-
-[![Build Status](https://travis-ci.com/HACKE-RC/beautifulstrings.svg?branch=master)](https://travis-ci.com/HACKE-RC/beautifulstrings)
+# Beautiful Strings ~ A Python Module to solve your Python string issues.
 
 Makes this possible (thanks to [forbiddenfruit](https://github.com/clarete/forbiddenfruit)):
 
@@ -35,4 +33,3 @@ Because it's the right thing to do and more convenient for any type of use.
 
 ## How does it work?
 It uses a module called [forbiddenfruit](https://pypi.org/project/forbiddenfruit), which allows Python programs to overwrite or make own methods for a inbuilt Python object or class.
-
