@@ -1,4 +1,4 @@
-# fuckpy3
+# Beautiful Strings
 
 [![Build Status](https://travis-ci.com/zardus/fuckpy3.svg?branch=master)](https://travis-ci.com/zardus/fuckpy3)
 
