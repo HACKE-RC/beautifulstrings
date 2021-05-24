@@ -34,4 +34,5 @@ b'asdf'
 Because it's the right thing to do and more convenient for any type of use.
 
 ## How does it work?
-It uses a module called [forbiddenfruit](https://pypi.org/project/forbiddenfruit)
+It uses a module called [forbiddenfruit](https://pypi.org/project/forbiddenfruit), which allows Python programs to overwrite or make own methods for a inbuilt Python object or class.
+
