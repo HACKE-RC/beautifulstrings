@@ -30,14 +30,8 @@ b'asdf'
 [97, 115, 100, 102]
 ```
 
-# FAQ
+## Why use BeautifulStrings?
+Because it's the right thing to do and more convenient for any type of use.
 
-## Why?
-
-Because it's the right thing to do.
-
-## pypy?
-
-This is all based on the amazing forbiddenfruit, so pypy support will magically happen if forbiddenfruit gets pypy support.
-
-## thanks i hate it
+## How does it work?
+It uses a module called (forbiddenfruit)[https://pypi.org/project/forbiddenfruit/]
