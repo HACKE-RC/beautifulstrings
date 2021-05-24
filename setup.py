@@ -3,8 +3,8 @@ from setuptools import setup
 setup(
     name='fuckpy3',
     version='1.0',
-    py_modules=['fuckpy3'],
+    py_modules=['beautifulstrings'],
     install_requires=['forbiddenfruit'],
-    description='Some much-needed sanity for byte-wrangling in python3.',
-    url='https://github.com/zardus/fuckpy3',
+    description='Improved version of f*ckpy3 module by zardus. More functions, Better Management and much more :)',
+    url='https://github.com/HACKE-RC/beautifulstrings',
 )

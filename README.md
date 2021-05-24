@@ -1,22 +1,20 @@
 # Beautiful Strings
 
-[![Build Status](https://travis-ci.com/zardus/fuckpy3.svg?branch=master)](https://travis-ci.com/zardus/fuckpy3)
-
-In the vein of [fuckpep8](https://github.com/zardus/fuckpep8), a misguided attempt to make the world conform to my view of how things should work, rather than the actual reality.
+[![Build Status](https://travis-ci.com/HACKE-RC/beautifulstrings.svg?branch=master)](https://travis-ci.com/HACKE-RC/beautifulstrings)
 
 Makes this possible (thanks to [forbiddenfruit](https://github.com/clarete/forbiddenfruit)):
 
 ```
->>> import fuckpy3
->>> 'asdf'.bytes()
+>>> import beautifulstrings
+>>> 'asdf'.bytes() # string to bytes.
 b'asdf'
->>> b'asdf'.str()
+>>> b'asdf'.str() # bytes to string.
 'asdf'
->>> 'asdf'.str() # for convenience, so you don't have to think about what data type something _was_
+>>> 'asdf'.str() # for convenience, so you don't have to think about what data type an object was.
 'asdf'
->>> b'asdf'.bytes() # for convenience, so you don't have to think about what data type something _was_
+>>> b'asdf'.bytes() # for convenience, so you don't have to think about what data type an object was.
 b'asdf'
->>> 'asdf'.hex()
+>>> 'asdf'.hex() # string to hex
 b'61736466'
 >>> b'asdf'.hex() # python built-in
 '61736466'
@@ -26,6 +24,10 @@ b'asdf'
 b'asdf'
 >>> 'asdf'.hex().unhex().str()
 'asdf'
+>>> 'asdf'.ascii() # ascii values of each value character in a string.
+'97115100102'
+>>> 'asdf'.ascii_list() # ascii values of each value character in a string as an integer list.
+[97, 115, 100, 102]
 ```
 
 # FAQ
